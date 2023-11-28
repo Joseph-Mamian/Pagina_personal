@@ -13,6 +13,6 @@ function eliminar_cambios(){
         ShowConfirmButton: true,
         text: "tabla eliminada",
         background: 'white',
-        
     });
+    document.getElementById("eliminar").reset();
 }
