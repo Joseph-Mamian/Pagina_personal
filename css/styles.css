@@ -76,7 +76,7 @@ input{
     font-size: 45px;
     padding-top: 200px;
     display: flex; 
-    background-color: blue;
+    background-color: #ebd7c9;
 } 
 h6{
     padding-top: 20px;
@@ -90,6 +90,9 @@ h6{
     margin-left: 50px;
     border-radius: 40px;
     background-color: #e3e3ff;
+    -webkit-box-shadow: 17px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 17px 10px 5px 0px rgba(0,0,0,0.75);
 }
 #im-hijo img{ 
     z-index: 2;
@@ -97,14 +100,14 @@ h6{
     height: 467px;
     width: 700px;
     margin-left: 310px;
-    margin-bottom: 500px; 
+    margin-bottom: 800px; 
 }
 h3{
     padding: 20px;
     padding-inline: 20px;
 }
 #main{
-    background-color:#fff ;
+    background-color:#ebd7c9 ;
 }
 #padre2{
     z-index: 1;
@@ -114,8 +117,8 @@ h3{
     font-size: 45px;
     display: flex; 
     padding-bottom: 20px;
-    margin-bottom: 100px;
-    background-color: blue;
+    margin-bottom: 90px;
+    background-color: #ebd7c9;
 }
 #thijo2{
     margin: 20px;
@@ -123,9 +126,12 @@ h3{
     height: 700px;
     width: 700px;
     margin-top: 80px;
-    margin-left: 210px;
+    margin-left: 250px;
     border-radius: 40px;
     background-color: #e3e3ff;
+    -webkit-box-shadow: 17px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 17px 10px 5px 0px rgba(0,0,0,0.75);
 }
 h4{
     text-align: left;
@@ -136,5 +142,50 @@ h4{
     border-radius: 40px;
     height: 667px;
     width: 800px;
-    margin-left: 710px;
+    margin-left: 820px; 
+    margin-bottom: 100px;
 }
+
+#tabla{
+    padding-top: 700px;
+}
+input{
+    font-size: 20px;
+}
+th, td {
+    border: 5px solid #b9b9ff;
+  }
+table {
+    border-collapse: collapse;
+  }
+  table {
+    border-collapse: separate;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 3px;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 3px;
+    table-layout: fixed;
+  }
+  tr td:first-child {
+    color: #37376c;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  #prueba{
+      padding-left: 250px;
+  }
+  #guardar{
+      margin-left: 700px;
+      border-radius: 100px;
+      border-style: none;
+      background-color: #b9b9ff;
+      margin-top: 10px;
+      margin-bottom: 41px;
+  }
+  #ttable{
+      margin-left: 250px;
+  }
