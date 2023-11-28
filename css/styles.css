@@ -61,23 +61,21 @@ font-size:xx-large;
 input{
     font-size: 15px;
 }
-h2{
-    background-color: rgb(147, 241, 241);
+#ttable{
+    background-color: #e3e3ff;
     width: 550px;
-    height: 50px;
+    height: 100px;
     font-size: 30px;
     border-radius: 10px;
 }
 #padre{
-    z-index: 2;
+    z-index: 1;
     width: 99.1vw;
-    height: 100vh;
+    height: 50vh;
     text-align: center;
     font-size: 45px;
     padding-top: 200px;
     display: flex; 
-    padding-bottom: 20px;
-    margin-bottom: 100px;
     background-color: blue;
 } 
 h6{
@@ -85,23 +83,58 @@ h6{
 }
 #thijo{
     margin: 20px;
-    font-size: 50px;
-    height: 227px;
+    font-size: 60px;
+    height: 300px;
     width: 700px;
-    margin-top: 150px;
+    margin-top: 80px;
     margin-left: 50px;
-    background-color: red;
+    border-radius: 40px;
+    background-color: #e3e3ff;
 }
 #im-hijo img{ 
-    z-index: 1;
+    z-index: 2;
     border-radius: 40px;
     height: 467px;
     width: 700px;
     margin-left: 310px;
-    margin-bottom: 500px;
-    
+    margin-bottom: 500px; 
 }
 h3{
     padding: 20px;
     padding-inline: 20px;
+}
+#main{
+    background-color:#fff ;
+}
+#padre2{
+    z-index: 1;
+    width: 99.1vw;
+    height: 80vh;
+    text-align: center;
+    font-size: 45px;
+    display: flex; 
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    background-color: blue;
+}
+#thijo2{
+    margin: 20px;
+    font-size: 60px;
+    height: 700px;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 210px;
+    border-radius: 40px;
+    background-color: #e3e3ff;
+}
+h4{
+    text-align: left;
+    font-size: 25px;
+    margin: 20px;
+}
+#im-hijo2 img{ 
+    border-radius: 40px;
+    height: 667px;
+    width: 800px;
+    margin-left: 710px;
 }
