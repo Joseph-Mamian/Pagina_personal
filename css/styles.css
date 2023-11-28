@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: black;
+    color: black
 }
 
 header{
@@ -59,11 +59,36 @@ table{
 font-size:xx-large;
 }
 input{
-    font-size: 25px;
+    font-size: 15px;
 }
 h2{
     background-color: rgb(147, 241, 241);
     width: 300px;
     height: 150px;
     font-size: 30px;
+}
+#padre{
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 200px;
+    
+} 
+h6{
+    padding-top: 20px;
+}
+#thijo{
+    margin: 20px;
+    font-size: 40px;
+    width: 550px;
+    margin-top: 150px;
+}
+#im-hijo img{ 
+    z-index: 1;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    padding-left: 800px;
 }

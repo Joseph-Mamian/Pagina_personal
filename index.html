@@ -4,40 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina personal</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>Agenda Virtual</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <style>
-        body{
-            background-color:aliceblue;
-            text-align: left;
-        }
-        div{
-            width: 500px;
-        }
     </style>
 </head>
+
+
 <body>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/functions.js"></script>
+
     <header>
         <div id="subheader">
-            <div id="titulo">AGENDA VIRTUAL </div>
+            <div id="titulo"><h1>AGENDA VIRTUAL</h1></div>
             <nav>
                 <ul>
                     <li><a href="#">Inicia Sesion</a></li>
                     <li><a href="#">Registrate</a></li>
-                    <li><a href="#">Crea una agenda</a></li>
+                    <li><a href="#tabla">Crea una agenda</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <section id="main">
         <section id="slideshow"></section>
-        <section id="Bienvenidos"></section>
+        
+        
+        <div id="padre">
+            <div id="thijo">
+                <h1>Bienvenido a tú agenda virtual</h1>
+                <h6>empieza a crear tú agenda</h6>
+            </div>
+        </div>
+        <div id="im-hijo">
+            <img src="/Pagina_personal/img/agenda.png" alt="agenda">
+        </div>
+        
+        <!-- <section class="continter_table" id="tabla"></section>
         <article>
             <hgroup><h2>Tabla de ejemplo</h2></hgroup>
             <p></p>
         <p>
             <ul>
-                <li id="prueba"><table border="3"> 
+                <li id="prueba"><table border="1"> 
                     <th>horas</th>
                     <th>Lunes</th>
                     <th>Martes</th>
@@ -122,7 +133,11 @@
         </p>        
         </article>
     </section>
-    
+    <label for="" id="box_one"></label>
+    <label for="" id="box_two"></label>
+
+    <button type="submit" onclick="confirmar()">Guardar</button>
+    <button type="reset"  id="clear_color" onclick="eliminar_cambios()">eliminar tabla</button> -->
     
 </body>
 </html>
